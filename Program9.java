@@ -2,14 +2,14 @@ import java.util.*;
 
 class Program9
 {   
-    public static int add(int iValue1 , int iValue2)
+    public static int add(int iValue1 , int iValue2)         // Addition
     {
         int iResAdd= iValue1+iValue2;
 
         return iResAdd;
     }
 
-    public static int sub(int iValue3 , int iValue4)
+    public static int sub(int iValue3 , int iValue4)     // Subtraction
     {
         int iResSub;
         if(iValue3>iValue4)
@@ -24,14 +24,14 @@ class Program9
         return iResSub;
     }
 
-    public static int mul(int iValue5 , int iValue6)
+    public static int mul(int iValue5 , int iValue6)      // Multiplication
     {
         int iResMul= iValue5*iValue6;
 
         return iResMul;
     }
 
-    public static int divi(int iValue7 , int iValue8)
+    public static int divi(int iValue7 , int iValue8)   // Division
     {
         int iResDiv;
         if(iValue7>iValue8)
